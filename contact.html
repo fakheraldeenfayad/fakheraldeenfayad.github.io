@@ -4,52 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>اتصل بنا — فخر الدين فياض</title>
+    <meta name="description" content="اتصل بالكاتب والصحفي السوري فخر الدين فياض. نرحب بآرائكم ورسائلكم.">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header class="wrap">
-        <nav>
-            <div class="brand">فخر الدين فياض</div>
-            <div class="menu">
-                <a href="index.html">الصفحة الرئيسية</a>
-                <a href="books.html">الكتب</a>
-                <a href="articles.html">المقالات</a>
-                <a href="contact.html" class="active">اتصل بنا</a>
-            </div>
-        </nav>
-    </header>
 
-    <section class="contact-section" style="margin-top:4rem">
-        <h2>تواصل مع الكاتب</h2>
-        <p style="margin-bottom:1rem">يسعدنا تواصلكم وقراءة رسائلكم وآرائكم</p>
-
-        <div class="card" style="max-width:600px;margin:auto">
-            <form action="https://formsubmit.co/fakheraldeen333@gmail.com" method="POST">
-
-                <!-- إعدادات FormSubmit -->
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_next"
-                    value="https://fakheraldeenfayadf-sys.github.io/fakher-alden-fayad/index.html">
-
-                <label>الاسم الكامل</label>
-                <input type="text" name="name" required placeholder="اكتب اسمك">
-
-                <label>البريد الإلكتروني</label>
-                <input type="email" name="email" required placeholder="example@email.com">
-
-                <label>الرسالة</label>
-                <textarea name="message" required placeholder="اكتب رسالتك هنا"></textarea>
-
-                <button type="submit" class="cta" style="margin-top:1rem">إرسال الرسالة</button>
-            </form>
+<header class="wrap">
+    <nav>
+        <div class="brand">فخر الدين فياض</div>
+        <div class="menu">
+            <a href="index.html">الصفحة الرئيسية</a>
+            <a href="books.html">الكتب</a>
+            <a href="articles.html">المقالات</a>
+            <a href="contact.html" class="active">اتصل بنا</a>
         </div>
-    </section>
+    </nav>
+</header>
 
-    <footer class="wrap" style="margin-top:4rem">
-        © جميع الحقوق محفوظة — فخر الدين فياض 2025
-    </footer>
+<section class="wrap reveal" style="margin-top:4rem;text-align:center">
+    <h1>تواصل مع الكاتب</h1>
+    <p class="kv" style="max-width:600px;margin:.5rem auto 2rem">يسعدنا تواصلكم وقراءة رسائلكم وآرائكم الثقافية والفكرية</p>
 
+    <div class="card reveal" style="max-width:600px;margin:auto;padding:2rem">
+        <form action="https://formsubmit.co/fakheraldeen333@gmail.com" method="POST">
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://fakheraldeenfayadf-sys.github.io/fakher-alden-fayad/index.html">
+
+            <label style="display:block;text-align:right;margin-top:1rem">الاسم الكامل</label>
+            <input type="text" name="name" required placeholder="اكتب اسمك"
+                style="width:100%;padding:.8rem;margin-top:.4rem;border-radius:10px;border:1px solid #333;background:#0a0a0a;color:#fff">
+
+            <label style="display:block;text-align:right;margin-top:1rem">البريد الإلكتروني</label>
+            <input type="email" name="email" required placeholder="example@email.com"
+                style="width:100%;padding:.8rem;margin-top:.4rem;border-radius:10px;border:1px solid #333;background:#0a0a0a;color:#fff">
+
+            <label style="display:block;text-align:right;margin-top:1rem">الرسالة</label>
+            <textarea name="message" required placeholder="اكتب رسالتك هنا" rows="5"
+                style="width:100%;padding:.8rem;margin-top:.4rem;border-radius:10px;border:1px solid #333;background:#0a0a0a;color:#fff"></textarea>
+
+            <button type="submit" class="cta" style="margin-top:1.5rem;width:100%">
+                إرسال الرسالة
+            </button>
+        </form>
+    </div>
+
+    <div style="margin-top:2rem">
+        <p class="kv">أو تواصل مباشرة عبر البريد:</p>
+        <a href="mailto:fakheraldeen333@gmail.com" class="cta" style="padding:.6rem 1.4rem">
+            ✉️ fakheraldeen333@gmail.com
+        </a>
+    </div>
+
+    <div style="margin-top:3rem">
+        <a href="index.html" style="color:#bbb;text-decoration:none;font-size:.9rem">
+            ⬅ العودة للصفحة الرئيسية
+        </a>
+    </div>
+
+</section>
+
+<footer class="wrap" style="margin-top:4rem;text-align:center">
+    © جميع الحقوق محفوظة — فخر الدين فياض 2025
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
